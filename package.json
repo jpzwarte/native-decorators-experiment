@@ -1,0 +1,24 @@
+{
+  "name": "decorators",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsdown",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "lit": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.29.0",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@storybook/web-components": "latest",
+    "@storybook/web-components-vite": "latest",
+    "storybook": "latest",
+    "tsdown": "latest",
+    "typescript": "^6.0.0",
+    "vite": "latest"
+  }
+}
